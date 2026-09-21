@@ -1,57 +1,34 @@
-### Hi, 我是 Simen 👋
+### 你好，我是 Simen
 
-<!-- TODO: 换成你自己的行业/岗位，一句话就够。例如「在做数据分析」「软件工程师」「量化爱好者」 -->
-一句话介绍你自己 —— 正在做什么、关注什么方向。
+<!-- TODO: 这一句换成你自己的。下面这句只是占位 -->
+写代码的人，业余时间折腾点自己感兴趣的东西。
 
----
+<!-- TODO: 补一句你实际在做什么工作/方向，一句话就够 -->
 
-**🔭 目前在做**
+最近大部分精力花在一个项目上：[holdle-screener](https://github.com/Simen-Chen/holdle-screener)。
 
-- 📈 **holdle-screener** —— 把一套趋势跟随方法论翻译成可执行、可测试的代码。
-  月线定方向、日线找买点、规则管风险。141 项断言全部离线可跑，CI 每次 push 自动验证。
+起因挺偶然的。看到一套讲趋势跟随的方法论，逻辑上说得通，但网上找不到能跑的代码——
+要么只有几张图，要么代码跑起来结果对不上。干脆自己从头写了一遍。
 
-<!-- TODO: 有其他在做的项目就往下面加，没有就删掉这行 -->
-- 🛠️ 在折腾一些小工具，慢慢开源出来
+写着写着发现坑比想的多。数据源默认给的是不复权价，一只股票拆过股就会算出一个假的暴跌；
+退市公司的月线停在最后一个月，"最近几根K线"里还留着一个特别漂亮的买入信号；
+还有个最阴的，参考价被一个循环边界吃掉，程序不报错，也不干活，就那么空转到失效。
+这几个坑我都补了回归测试，现在一共 141 项断言，推到 GitHub 会自动跑一遍。
 
-**🌱 在学 / 感兴趣**
+项目里我把踩过的坑都写出来了，在 README 的「设计上踩过的坑」那一节。我觉得那部分比功能介绍更有用。
 
-量化交易 · 自动化工作流 · AI 工程化 · 数据可视化
+**在学**
 
-<!-- TODO: 按实际情况增删。别写你不熟的东西 —— 会被人问的 -->
+量化交易、自动化工作流，还有怎么把 AI 真正塞进日常干活里——不是拿来聊天，是拿来省时间。
 
----
+<!-- TODO: 按实际情况增删，别写你不熟的 -->
 
-### 📌 精选项目
+**常用**
 
-<a href="https://github.com/Simen-Chen/holdle-screener">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Simen-Chen&repo=holdle-screener&theme=default" alt="holdle-screener" />
-</a>
+Python 多一些，最近在写前端的东西。
 
-**holdle-screener** —— 趋势跟随规则的完整实现
+<!-- TODO: 换成你真正在用的。空着也比乱写强 -->
 
-三重入场闸门 · 参考价 H · 三级止损 · 两级选股扫描 · 数据体检闸
-`Python` `141 项断言` `GitHub Actions`
+**联系**
 
-[![tests](https://github.com/Simen-Chen/holdle-screener/actions/workflows/tests.yml/badge.svg)](https://github.com/Simen-Chen/holdle-screener/actions/workflows/tests.yml)
-
-> ⚠️ 仅供学习与规则验证，不构成投资建议。
-
----
-
-### 🧰 常用
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
-
-<!-- TODO: 上面四个只是示例。换成你真正在用的 —— 空着也比乱写强 -->
-
----
-
-### 📫 联系
-
-- 📧 cxmhome@qq.com
-<!-- TODO: 有博客/公众号/X 就往这加，没有就留着邮箱 -->
-
-*喜欢把复杂的东西拆开、写清楚、然后测一遍。*
+cxmhome@qq.com
